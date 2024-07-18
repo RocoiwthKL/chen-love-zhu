@@ -1,0 +1,25 @@
+.aixin {
+	position: absolute;
+	transform: translate(0px, 0px) scale(2);
+	transition: transform 0.7s ease-out;
+	pointer-events: none;
+}
+
+.aixin::before,
+.aixin::after {
+	content: '';
+	position: absolute;
+	left: 10px;
+	height: 16px;
+	width: 10px;
+	background-color: inherit;
+	border-radius: 5px 5px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+
+.aixin::after {
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}

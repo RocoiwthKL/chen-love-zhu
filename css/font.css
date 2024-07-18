@@ -1,0 +1,7 @@
+ @font-face {
+    font-family:'mianhuatang';
+    src: url('../fonts/mianhuatang.woff') format('woff'),
+         url('../fonts/mianhuatang.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
